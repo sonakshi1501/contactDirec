@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Directory</title>
+</head>
+<body>
+    <!-- name,email,mobilenum,add button -->
+    <div class="contacthead">
+        <h2>Directory of Contact</h2>
+        <input type="text" id="name" placeholder="Enter name"> <br>
+        <input type="email" id="email" placeholder="Enter email"> <br>
+        <input type="number" id="number" placeholder="Enter mobile number"> <br>
+        <button id="adddatabtn">Add data</button>
+    </div>
+    <br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Email Id</td>
+                <td>Phone number</td>
+                <td>Delete</td>
+            </tr>
+
+            
+        </thead>
+        <tbody id="data"></tbody>
+    </table>
+    <script src="app.js"></script>
+
+</body>
+</html>
